@@ -1,0 +1,129 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li, button, textarea {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a background color and font styles */
+body {
+    background-color: #f3f3f3;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Main content container */
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+/* Left sidebar Menu of Beers) */
+nav {
+    flex: 1;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+#beer-menu {
+    list-style: none;
+    padding: 0;
+}
+
+#beer-menu li {
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+}
+
+/* Beer Details and Reviews) */
+#beer-details {
+    flex: 3;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.beer-info {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#beer-image {
+    max-width: 100%;
+    height: 300px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+#beer-name {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+#beer-description {
+    font-size: 1rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Review styles */
+#review-list {
+    list-style: none;
+    padding: 0;
+}
+
+#review-list li {
+    background-color: #f9f9f9;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+}
+
+/* Review Submission Form styles */
+#review-form, #description-form {
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #555;
+}
