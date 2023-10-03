@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlataBeer App</title>
+    <link rel="stylesheet" href="./src/styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>FlataBeer</h1>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <!-- Menu of Beers (Left Sidebar) -->
+        <nav>
+            <h2>Beers</h2>
+            <ul id="beer-menu">
+                <!-- Menu items will be dynamically added here -->
+            </ul>
+        </nav>
+
+        <!-- Beer Details (Right Content) -->
+        <div id="beer-details">
+            <h2>Beer Details</h2>
+            <div class="beer-info">
+                <h3 id="beer-name">Beer Name</h3>
+                <img src="" alt="Beer Image" id="beer-image">
+                <p id="beer-description">Beer Description</p>
+            </div>
+            <h3>Reviews</h3>
+            <ul id="review-list">
+                <!-- Reviews will be dynamically added here -->
+            </ul>
+            <!-- Review Submission Form -->
+            <form id="review-form">
+                <h3>Add a Review</h3>
+                <textarea id="new-review" placeholder="Write your review here" rows="4" cols="50"></textarea>
+                <button type="submit">Submit</button>
+            </form>
+            <!-- Description Update Form (Bonus Feature) -->
+            <form id="description-form">
+                <h3>Edit Description</h3>
+                <textarea id="new-description" placeholder="Edit beer description" rows="4" cols="50"></textarea>
+                <button type="submit">Save Description</button>
+            </form>
+        </div>
+    </main>
+
+    <script src="./src/index.js"></script>
+</body>
+</html>
